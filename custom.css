@@ -741,3 +741,11 @@ blockquote p {
   text-decoration: line-through;
   text-decoration-thickness: 5px;
 }
+
+.centered {
+  text-align: center;
+}
+
+.bigx {
+  font-size: 200%;
+}

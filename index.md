@@ -21,101 +21,138 @@ Hi, I'm Niko!
 
 # Rust Project Goals
 
-.p100[![Project Goals](./images/goals-page.png)]
+.p100[![Project Goals RFC header](./images/project-goals-rfc.png)]
 
 ---
 
-# Why I started working on Rust...
-
-### Type safe sytems programming?!
+# What are Project Goals?
 
 ---
 
-![Homer sniffs](./images/homer-sniffs.gif)
+# What are Project Goals?
+
+.p100[![Project Goals RFC header](./images/submission-period.png)]
+
+???
+
+Begin with a 
 
 ---
 
-## Open source?!
+# Project goal outline
+
+* Motivation:
+    * *The status quo*
+    * *The next 6 months*
+    * *The "shiny future" we are working towards*
+--
+* Design axioms
+
+--
+* Ownership and team asks
 
 ---
 
-dancing.gif
+# Goal owner
+
+Who opens a goal?
+
+* Maintainers
+* Individuals
+* Organizations
 
 ---
 
-# Open source
+# Goals chosen
 
-From the Rust Code of Conduct...
-
-> Respect that people have differences of opinion and that **every design or implementation choice carries a trade-off and numerous costs**. There is seldom a right answer. *(emphasis mine)*
-
----
-name:scratching
-
-# Open source strengths
-
-* Scratching your own itch
+* 26 total goals
+* 3 of which are **flagship goals**
+    * Prepare for Rust 2024 Edition
+    * Bring Async Rust and Sync Rust closer to parity
+    * Bring Linux Kernel closer to building on stable Rust
 
 ---
 
-# Scratching your own itch
+# Rust 2024 Edition
 
----
-template:scratching
-
----
-template:scratching
-name:empowering
-
-* Empowering individuals
+"Stability without stagnation"
 
 ---
 
-# Empowering individuals
-
----
-template:empowering
-
----
-template:empowering
-name:diversity
-
-* Diversity of opinion
+# What is an edition?
 
 ---
 
-# Diversity of opinion
+# One way: Rust "2.0"
 
----
-name:following-along
+.abspos.left125.top125[ <u>Rust 1.x </u> ]
 
-# Open source challenges
-
-* .red[.strikeme[Scratching your own itch] ⟿]
-    * Hard to get organized
-
----
-template:following-along
-name:sustainability
-
-* .red[.strikeme[Empowering individuals] ⟿]
-    * Group outreach is hard
-
----
-template:sustainability
-name:decisions
-
-* .red[.strikeme[Diversity of opinion] ⟿]
-    * Reaching decisions
+.abspos.left100.top175.width150px[![Cargo](./images/cargo.png)]
+.abspos.left145.top350[<code>serde</code>]
+.abspos.left150.top400.width50px.rotate270[![Arrow](./images/Arrow.png)]
+.abspos.left100.top450.width150px[![Cargo](./images/cargo.png)]
+.abspos.left120.top625[<code>your-crate</code>]
 
 ---
 
-# The goals
+# One way: Rust "2.0"
 
-* Finalize preparations for the Rust 2024 edition 
-* Bring Async Rust closer to parity with sync Rust 
-* Bring the Linux kernel closer to building on stable Rust 
+.abspos.left125.top125[ <u>Rust 1.x </u> ]
+.abspos.left525.top125[ <u>Rust 2.x </u> ]
+
+.abspos.left100.top175.width150px[![Cargo](./images/cargo.png)]
+.abspos.left145.top350[<code>serde</code>]
+
+.abspos.left350.top400.width100px.rotate200[![Arrow](./images/Arrow.png)]
+.abspos.left500.top450.width150px[![Cargo](./images/cargo.png)]
+.abspos.left520.top625[<code>your-crate</code>]
+
+--
+
+.abspos.left700.top500.fontSize50pt[❌]
 
 ---
 
-# Rust 2024 edition
+# Rust way: Editions
+
+.abspos.left125.top125[ <u>Rust 2021</u> ]
+
+.abspos.left100.top175.width150px[![Cargo](./images/cargo.png)]
+.abspos.left145.top350[<code>serde</code>]
+.abspos.left150.top400.width50px.rotate270[![Arrow](./images/Arrow.png)]
+.abspos.left100.top450.width150px[![Cargo](./images/cargo.png)]
+.abspos.left120.top625[<code>your-crate</code>]
+
+---
+
+# Rust way: Editions
+
+.abspos.left125.top125[ <u>Rust 2021</u> ]
+.abspos.left525.top125[ <u>Rust 2024</u> ]
+
+.abspos.left100.top175.width150px[![Cargo](./images/cargo.png)]
+.abspos.left145.top350[<code>serde</code>]
+
+.abspos.left350.top400.width100px.rotate200[![Arrow](./images/Arrow.png)]
+.abspos.left500.top450.width150px[![Cargo](./images/cargo.png)]
+.abspos.left520.top625[<code>your-crate</code>]
+
+--
+
+.abspos.left700.top500.fontSize50pt[✅]
+
+---
+
+# Rust way: Editions
+
+.abspos.left125.top125[ <u>Rust 2021</u> ]
+.abspos.left525.top125[ <u>Rust 2024</u> ]
+
+.abspos.left500.top175.width150px[![Cargo](./images/cargo.png)]
+.abspos.left545.top350[<code>serde</code>]
+
+.abspos.left350.top350.width100px.rotate340[![Arrow](./images/Arrow.png)]
+.abspos.left100.top450.width150px[![Cargo](./images/cargo.png)]
+.abspos.left120.top625[<code>your-crate</code>]
+
+.abspos.left300.top500.fontSize50pt[✅]
