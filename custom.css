@@ -32,6 +32,10 @@ h3 {
   color: grey;
 }
 
+.red {
+  color: red;
+}
+
 .grey a {
   color: grey;
 }
@@ -731,4 +735,9 @@ blockquote p {
 .thought.bubble3 {
   height: 25px;
   width: 25px;
+}
+
+.strikeme {
+  text-decoration: line-through;
+  text-decoration-thickness: 5px;
 }
