@@ -253,6 +253,18 @@ mark,
   width: 80%;
 }
 
+.p90 img {
+  width: 90%;
+}
+
+.p95 img {
+  width: 95%;
+}
+
+.p100 img {
+  width: 100%;
+}
+
 .p60 img {
   width: 60%;
 }

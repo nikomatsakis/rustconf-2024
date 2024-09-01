@@ -13,22 +13,48 @@ Don't forget to update the title in [index.html](./index.html)
 
 ---
 
-# Slide 1
+# Who is this guy?
 
-You can put stuff here
+???
+
+Hi, I'm Niko!
 
 ---
 
-# Code example
+# Rust Project Goals
 
-```rust
-fn main() {
-    println!("Hello, world");
-}
-```
+.p100[![Project Goals](./images/goals-page.png)]
+
+---
+
+# Why I started working on Rust...
+
+Type safe sytems programming?!
 
 --
 
-.line1[![Arrow](./images/Arrow.png)]
+![Homer sniffs](./images/homer-sniffs.gif)
 
-You can add arrows like this!
+--
+
+* Open source?!
+
+---
+
+# Open source
+
+dancing.gif
+
+---
+
+# Open source
+
+From the Rust Code of Conduct...
+
+> Respect that people have differences of opinion and that **every design or implementation choice carries a trade-off and numerous costs**. There is seldom a right answer. *(emphasis mine)*
+
+---
+
+# Rust code of conduct
+
+> Respect that people have differences of opinion and that **every design or implementation choice carries a trade-off and numerous costs**. There is seldom a right answer. *(emphasis mine)*
