@@ -55,5 +55,17 @@ function absolution() {
             console.log(`found fontSize ${fontSize}`);
             e.style.fontSize = `${fontSize}`;
         }
+
+        e.onclick = (event) => {
+            let left = e.style.left;
+            let top = e.style.top;
+            let combined = `${left},${top}`;
+            let newvalue = window.prompt("Set left,top", combined);
+            if (newvalue) {
+                let parts = newvalue.split(",");
+                e.style.left = parts[0];
+                e.style.top = parts[1];
+            }
+        };
     }
 }

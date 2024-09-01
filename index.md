@@ -156,3 +156,33 @@ Who opens a goal?
 .abspos.left120.top625[<code>your-crate</code>]
 
 .abspos.left300.top500.fontSize50pt[✅]
+
+---
+
+# What are we actually changing?
+
+```rust
+fn process_data(
+    datums: &[Datum]
+) -> impl Iterator<Item = ProcessedDatum> {
+    datums
+        .iter()
+        .map(|datum| datum.process())
+}
+```
+
+[Playground.](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=89418b7fe6748de2c4a335c7d529daa8)
+
+---
+
+# What are we actually changing?
+
+```rust
+fn process_data(
+    datums: &[Datum]
+) -> impl Iterator<Item = ProcessedDatum> + '_ {
+    datums
+        .iter()
+        .map(|datum| datum.process())
+}
+```
