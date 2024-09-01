@@ -175,14 +175,27 @@ fn process_data(
 
 ---
 
-# What are we actually changing?
+# Increasing consistency
+
+In Rust 2021...
 
 ```rust
-fn process_data(
-    datums: &[Datum]
-) -> impl Iterator<Item = ProcessedDatum> + '_ {
-    datums
-        .iter()
-        .map(|datum| datum.process())
-}
+fn process_data(datums: &[Datum]) -> impl Iterator
 ```
+
+```rust
+async fn process_data(input: &Input) -> Result
+```
+
+```rust
+fn process_data(input: &Input) -> impl Future<Output = Result>
+```
+
+
+```rust
+fn process_data(input: &Input) -> impl Future<Output = Result> + '_
+```
+
+---
+
+# Increasing consistency
