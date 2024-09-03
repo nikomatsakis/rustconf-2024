@@ -2,6 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300,300italic,600,400italic,600italic,700italic,800italic);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -36,8 +42,16 @@ h3 {
   color: red;
 }
 
+.white {
+  color: white;
+}
+
 .grey a {
   color: grey;
+}
+
+.huge {
+  font-size: 200%;
 }
 
 .small {
@@ -279,6 +293,14 @@ mark,
 
 .p40 img {
   width: 40%;
+}
+
+.p30 img {
+  width: 30%;
+}
+
+.p20 img {
+  width: 20%;
 }
 
 .p100 img {
