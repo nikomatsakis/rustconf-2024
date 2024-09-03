@@ -376,11 +376,11 @@ Well, let's try it!
 [Playground.](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=89418b7fe6748de2c4a335c7d529daa8)
 
 ---
-# What does the Rust 2024 goal say about the Rust project?
+# What does the Rust 2024 goal say about Rust?
 
 --
 
-We are not done.
+.lobster-regular.huge.red[We are not done.]
 
 ???
 
@@ -514,15 +514,47 @@ async fn process_request() {
 * [ ] Async version of "scoped threads"
 
 ---
-# What does the Async Rust goal say about the Rust project?
+# Async closures
+
+```rust
+fn for_each_prime(execute: &impl Fn(u32)) {
+    execute(2);
+    execute(3);
+    execute(5);
+    // ...
+}
+```
+
+---
+# Async closures
+
+```rust
+async fn for_each_prime(execute: &impl async Fn(u32)) {
+    execute(2).await;
+    execute(3).await;
+    execute(5).await;
+    // ...
+}
+```
+
+---
+# What does the Async Rust goal say about Rust?
 
 --
 
-<i>Fearless concurrency.</i>
+.lobster-regular.huge.red[Fearless concurrency.]
 
 ???
 
-Rust remains 
+I see the async goal as a continuation of
+Rust's commitment to fearless concurrency --
+the ability to write programs with complex schedules that,
+you know, actually work.
+
+Concurrency and parallelism are the key to scaling up
+and solving the biggest engineering challenges,
+and that's where Rust will continue to focus a lot of energy
+going forward.
 
 ---
 
@@ -531,6 +563,64 @@ Rust remains
 ## Bring Linux Kernel closer to building on stable Rust
 
 ---
-# What does the "Rust-for-Linux" goal say about the Rust project?
+# Promise
 
-<i>No limits.</i>
+Low-level but safe
+
+---
+# Challenge
+
+Lots of unstable features.
+
+Makes it hard to sell Rust.
+
+---
+# What does the "Rust-for-Linux" goal say about Rust?
+
+--
+
+.lobster-regular.huge.red[No limits.]
+
+???
+
+One of Rust's selling points is that you can go as deep as you want to go.
+
+There is nothing you can't do.
+
+---
+
+# Rust: high meets low
+
+???
+
+I believe in my heart that as the Rust For Linux work
+proceeds we are going to see a revolution in the accessibility
+of the linux kernel.
+
+What I think is most interesting about Rust is the way that it makes systems and low-level programming more productive and hence more accessible.
+
+Think of the words we usually use -- we say that people are systems programming wizards. The way I see it, systems programming typically requires a lot of specific, rather arcane knowledge. It's not that other people couldn't acquire that knowledge. It's that it doesn't make sense to
+
+---
+
+# Where are we going
+
+Looking out a few years
+
+* Ever simpler
+
+--
+* Async Rust parity
+
+--
+* No limits
+
+--
+
+For our community:
+
+* A place where anyone can...
+    * easily follow along and get involved
+    * bring an idea from "thought" to "production feature"
+* ...and ultimately...
+    * have a career
