@@ -1,11 +1,30 @@
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300,300italic,600,400italic,600italic,700italic,800italic);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap);
 
 .lobster-regular {
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.open-sans-light {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: "light";
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: "light";
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 body {
@@ -264,7 +283,7 @@ mark,
   left: 20px;
   bottom: 20px;
   font-weight: 400;
-  font-size: 0.5em;
+  font-size: 0.8em;
 }
 
 .p80 img {
@@ -770,4 +789,16 @@ blockquote p {
 
 .bigx {
   font-size: 200%;
+}
+
+.homey {
+  background-color: grey;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+.githubavatar img {
+  width: 150px;
 }
