@@ -209,7 +209,10 @@ I'm going to go through each of those goals and talk a bit about it and what I t
 .githubavatar[![TC](./images/gh-TC.png)]
 .githubavatar[![ehuss](./images/gh-ehuss.png)]
 ]
-.abspos.left350.top590[.small[...and more!]]
+.abspos.left350.top570[.small[
+    ...and a big shout out<br>
+    to the owners of the individual items!
+]]
 
 ---
 
