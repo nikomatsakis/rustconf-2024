@@ -283,6 +283,8 @@ fn process_data(
 
 [Playground.](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=1d29341a7d1970e29a9e7b87c9136629)
 
+[Recent post on the Rust blog covers this in detail.](https://blog.rust-lang.org/2024/09/05/impl-trait-capture-rules.html)
+
 ---
 
 # Inconsistent
